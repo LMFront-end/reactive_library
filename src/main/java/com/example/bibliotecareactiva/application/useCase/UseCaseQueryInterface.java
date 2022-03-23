@@ -10,15 +10,13 @@ import reactor.core.publisher.Mono;
 import java.util.List;
 import java.util.Optional;
 
+
 public interface UseCaseQueryInterface {
 
     /* GET */
 
-    // List Resource
-    Flux<List<ResourceDTO>> listResource();
-
     // find by id
-    Mono<Optional<ResourceDTO>> findById(String id);
+
 
     // find by availability
     Flux<List<ResourceDTO>> findByAvailability(Availability availability);
