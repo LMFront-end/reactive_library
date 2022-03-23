@@ -8,10 +8,6 @@ import java.util.List;
 
 public interface UseCaseCommandInterface {
 
-    /* POST */
-    // save all data
-    Flux<ResourceDTO> fillData(List<ResourceDTO> resourceDTOS);
-
     // save Resource
     Mono<ResourceDTO> saveResource(ResourceDTO resourceDTO);
 

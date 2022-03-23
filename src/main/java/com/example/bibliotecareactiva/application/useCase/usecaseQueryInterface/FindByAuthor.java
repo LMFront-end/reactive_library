@@ -1,4 +1,4 @@
-package com.example.bibliotecareactiva.application.useCase.UsecaseQueryInterface;
+package com.example.bibliotecareactiva.application.useCase.usecaseQueryInterface;
 
 import com.example.bibliotecareactiva.domain.dto.ResourceDTO;
 import reactor.core.publisher.Flux;

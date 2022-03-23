@@ -1,4 +1,4 @@
-package com.example.bibliotecareactiva.adapters;
+package com.example.bibliotecareactiva.infrastructure;
 
 import org.springframework.context.annotation.Configuration;
 
