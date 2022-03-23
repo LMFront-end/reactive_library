@@ -15,11 +15,9 @@ public interface UseCaseQueryInterface {
 
     /* GET */
 
-    // find by id
-
 
     // find by availability
-    Flux<List<ResourceDTO>> findByAvailability(Availability availability);
+
 
     // recommend By ThematicArea
     Flux<List<ResourceDTO>> recommendByThematicArea(ThematicArea thematicArea);
