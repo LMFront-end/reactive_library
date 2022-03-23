@@ -9,7 +9,7 @@ import java.util.List;
 public interface UseCaseCommandInterface {
 
     // save Resource
-    Mono<ResourceDTO> saveResource(ResourceDTO resourceDTO);
+
 
     /* PUT */
     // update Resource
