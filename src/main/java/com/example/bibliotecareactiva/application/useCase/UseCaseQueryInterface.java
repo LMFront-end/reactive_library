@@ -13,11 +13,8 @@ import java.util.Optional;
 
 public interface UseCaseQueryInterface {
 
-    // recommend by both (ThematicArea, TypeOfResource)
-    Flux<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource);
-
     // find By Author
-    Flux<List<ResourceDTO>> findByAuthor(String author);
+
 
     // find by name
     Flux<List<ResourceDTO>> findByName(String name);
