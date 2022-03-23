@@ -66,5 +66,17 @@ public class ResourceMapper {
         );
     }
 
-    
+    // Resource to ResourceDTO
+    public Function<Resource, ResourceDTO> mapToDTOWhenReturn(){
+
+        return resource -> new ResourceDTO(
+                resource.getId(),
+                resource.getName(),
+                resource.getAuthor(),
+                Availability.AVAILABLE,
+                resource.getLastBorrowed(),
+                resource.getThematicArea(),
+                resource.getTypeOfResource()
+        );
+    }
 }
