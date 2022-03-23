@@ -2,6 +2,7 @@ package com.example.bibliotecareactiva.application.mappers;
 
 import com.example.bibliotecareactiva.domain.collections.Resource;
 import com.example.bibliotecareactiva.domain.dto.ResourceDTO;
+import com.example.bibliotecareactiva.domain.valueObject.Availability;
 import org.springframework.stereotype.Component;
 
 import java.util.function.Function;
@@ -31,6 +32,20 @@ public class ResourceMapper {
                 resourceDTO.getAuthor(),
                 resourceDTO.getAvailability(),
                 resourceDTO.getLastBorrowed(),
+                resourceDTO.getThematicArea(),
+                resourceDTO.getTypeOfResource()
+        );
+    }
+
+    // ResourceDTO to Resource
+    public Function<ResourceDTO, Resource> mapToNewCollection(){
+
+        return resourceDTO -> new Resource(
+                resourceDTO.getId(),
+                resourceDTO.getName(),
+                resourceDTO.getAuthor(),
+                Availability.AVAILABLE,
+                null,
                 resourceDTO.getThematicArea(),
                 resourceDTO.getTypeOfResource()
         );
