@@ -5,6 +5,7 @@ import reactor.core.publisher.Flux;
 
 import java.util.List;
 
+@FunctionalInterface
 public interface FindByAuthor {
     public Flux<List<ResourceDTO>> findByAuthor(String author);
 }

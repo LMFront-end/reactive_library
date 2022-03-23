@@ -5,6 +5,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.Optional;
 
+@FunctionalInterface
 public interface FindById {
     public Mono<Optional<ResourceDTO>> findById(String id);
 }

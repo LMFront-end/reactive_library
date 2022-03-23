@@ -7,6 +7,7 @@ import reactor.core.publisher.Flux;
 
 import java.util.List;
 
+@FunctionalInterface
 public interface ThematicAreaAndTypeOfResource {
     public Flux<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource);
 }
