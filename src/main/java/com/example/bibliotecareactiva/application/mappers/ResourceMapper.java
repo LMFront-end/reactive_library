@@ -5,6 +5,7 @@ import com.example.bibliotecareactiva.domain.dto.ResourceDTO;
 import com.example.bibliotecareactiva.domain.valueObject.Availability;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
 import java.util.function.Function;
 
 @Component
@@ -50,4 +51,20 @@ public class ResourceMapper {
                 resourceDTO.getTypeOfResource()
         );
     }
+
+    // Resource to ResourceDTO
+    public Function<Resource, ResourceDTO> mapToDTOWhenBorrow(){
+
+        return resource -> new ResourceDTO(
+                resource.getId(),
+                resource.getName(),
+                resource.getAuthor(),
+                Availability.UNAVAILABLE,
+                LocalDate.now(),
+                resource.getThematicArea(),
+                resource.getTypeOfResource()
+        );
+    }
+
+    
 }
