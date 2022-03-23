@@ -16,7 +16,6 @@ public class Resource {
     @Id
     private final String id;
 
-
     private final String name;
     private final String author;
     private final Availability availability;
