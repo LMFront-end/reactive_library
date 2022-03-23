@@ -8,10 +8,6 @@ import java.util.List;
 
 public interface UseCaseCommandInterface {
 
-    /* PUT */
-    // return Resource
-    Mono<String> returnResource(String id);
-
     /* DELETE */
 
     // Delete Resource
