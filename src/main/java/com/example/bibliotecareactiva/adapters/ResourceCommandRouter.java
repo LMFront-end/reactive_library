@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 public class ResourceCommandRouter {
 
     /* POST */
-    // fill Data
+    // save all data
 
     // save Resource
 
