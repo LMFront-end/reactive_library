@@ -9,6 +9,7 @@ import java.util.function.Function;
 @Component
 public class ResourceMapper {
 
+    // Resource to ResourceDTO
     public Function<Resource, ResourceDTO> mapToDTO(){
         return resource -> new ResourceDTO(
                 resource.getId(),
@@ -19,6 +20,19 @@ public class ResourceMapper {
                 resource.getThematicArea(),
                 resource.getTypeOfResource()
         );
+    }
 
+    // ResourceDTO to Resource
+    public Function<ResourceDTO, Resource> mapToCollection(){
+
+        return resourceDTO -> new Resource(
+                resourceDTO.getId(),
+                resourceDTO.getName(),
+                resourceDTO.getAuthor(),
+                resourceDTO.getAvailability(),
+                resourceDTO.getLastBorrowed(),
+                resourceDTO.getThematicArea(),
+                resourceDTO.getTypeOfResource()
+        );
     }
 }
