@@ -8,11 +8,6 @@ import java.util.List;
 
 public interface UseCaseCommandInterface {
 
-    /* DELETE */
+    //
 
-    // Delete Resource
-
-
-    // Delete All
-    Mono<Void> deleteById(String id);
 }
