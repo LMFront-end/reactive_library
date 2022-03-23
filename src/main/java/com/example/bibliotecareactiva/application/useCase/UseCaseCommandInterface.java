@@ -9,12 +9,6 @@ import java.util.List;
 public interface UseCaseCommandInterface {
 
     /* PUT */
-    // update Resource
-
-
-    // borrow Resource
-    Mono<String> borrowResource(String id);
-
     // return Resource
     Mono<String> returnResource(String id);
 
