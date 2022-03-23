@@ -13,12 +13,6 @@ import java.util.Optional;
 
 public interface UseCaseQueryInterface {
 
-    // recommend By ThematicArea
-
-
-    // recommend By TypeOfResource
-    Flux<List<ResourceDTO>> recommendByTypeOfResource(TypeOfResource typeOfResource);
-
     // recommend by both (ThematicArea, TypeOfResource)
     Flux<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource);
 

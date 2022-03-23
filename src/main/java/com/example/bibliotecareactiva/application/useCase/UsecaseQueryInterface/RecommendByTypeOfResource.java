@@ -1,0 +1,11 @@
+package com.example.bibliotecareactiva.application.useCase.UsecaseQueryInterface;
+
+import com.example.bibliotecareactiva.domain.dto.ResourceDTO;
+import com.example.bibliotecareactiva.domain.valueObject.TypeOfResource;
+import reactor.core.publisher.Flux;
+
+import java.util.List;
+
+public interface RecommendByTypeOfResource {
+    public Flux<List<ResourceDTO>> recommendByTypeOfResource(TypeOfResource typeOfResource);
+}
