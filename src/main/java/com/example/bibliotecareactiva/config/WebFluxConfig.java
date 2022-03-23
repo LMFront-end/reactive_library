@@ -1,4 +1,4 @@
-package com.example.bibliotecareactiva.configuration;
+package com.example.bibliotecareactiva.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
