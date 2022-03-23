@@ -11,7 +11,7 @@ public interface UseCaseCommandInterface {
     /* DELETE */
 
     // Delete Resource
-    Mono<Void> deleteClearData();
+
 
     // Delete All
     Mono<Void> deleteById(String id);
