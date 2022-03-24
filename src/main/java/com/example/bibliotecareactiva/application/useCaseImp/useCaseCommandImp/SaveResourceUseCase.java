@@ -17,6 +17,7 @@ public class SaveResourceUseCase implements SaveResource {
 
     @Override
     public Mono<ResourceDTO> saveResource(ResourceDTO resourceDTO) {
-        return null;
+        return resourceRepository.save(resourceMapper.mapToNewCollection().apply(resourceDTO))
+                .map(resourceMapper.mapToDTO());
     }
 }

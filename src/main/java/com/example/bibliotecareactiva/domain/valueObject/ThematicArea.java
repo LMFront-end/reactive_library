@@ -16,6 +16,7 @@ public enum ThematicArea {
     ROMANCE,
     WITCHCRAFT,
     HORROR,
+    ANIMATION,
     SERIAL_KILLERS,
     FABLES
 }
