@@ -13,7 +13,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Service
-public class RecommendByThematicAreaImp implements RecommendByThematicArea {
+public class RecommendByThematicAreaUseCase implements RecommendByThematicArea {
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
