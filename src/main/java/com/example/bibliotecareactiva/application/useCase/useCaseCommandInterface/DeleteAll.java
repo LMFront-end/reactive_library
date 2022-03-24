@@ -3,5 +3,5 @@ package com.example.bibliotecareactiva.application.useCase.useCaseCommandInterfa
 import reactor.core.publisher.Mono;
 
 public interface DeleteAll {
-    public Mono<Void> deleteById(String id);
+    public Mono<Void> deleteAll();
 }

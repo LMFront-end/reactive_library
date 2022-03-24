@@ -12,10 +12,9 @@ import reactor.core.publisher.Mono;
 public class DeleteResourceUseCase implements DeleteResource {
 
     private final ResourceRepository resourceRepository;
-    private final ResourceMapper resourceMapper;
-
+    
     @Override
-    public Mono<Void> deleteClearData() {
-        return null;
+    public Mono<Void> deleteById(String id) {
+        return resourceRepository.deleteById(id);
     }
 }

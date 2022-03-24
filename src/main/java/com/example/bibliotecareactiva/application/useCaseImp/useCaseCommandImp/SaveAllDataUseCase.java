@@ -18,7 +18,7 @@ public class SaveAllDataUseCase implements SaveAllData {
     private final ResourceMapper resourceMapper;
 
     @Override
-    public Flux<ResourceDTO> fillData(List<ResourceDTO> resourceDTOS) {
+    public Flux<ResourceDTO> fillData(List<ResourceDTO> resources) {
         return null;
     }
 }
