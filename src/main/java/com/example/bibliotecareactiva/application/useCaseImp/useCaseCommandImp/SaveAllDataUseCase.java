@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RequiredArgsConstructor
 @Service
@@ -19,6 +20,9 @@ public class SaveAllDataUseCase implements SaveAllData {
 
     @Override
     public Flux<ResourceDTO> fillData(List<ResourceDTO> resources) {
-        return null;
+        return resourceRepository.saveAll(resources.stream()
+                .map(resourceMapper.mapToNewCollection())
+                .collect(Collectors.toList()))
+                .map(resourceMapper.mapToDTO());
     }
 }
