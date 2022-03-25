@@ -19,7 +19,7 @@ public class DeleteAllRouter {
     @Bean
     public RouterFunction<ServerResponse> DeleteAllRouterFunction(DeleteAllUseCase deleteAllUseCase){
         return route(
-                DELETE("/api/delete_all").and(accept(MediaType.APPLICATION_JSON)),
+                DELETE("/api/delete_all"),
                 request -> ServerResponse.ok()
                         .body(BodyInserters.fromPublisher(deleteAllUseCase.deleteAll(),Void.class))
         );
