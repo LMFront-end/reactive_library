@@ -8,6 +8,8 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
+import java.util.Objects;
+
 @RequiredArgsConstructor
 @Service
 public class UpdateResourceUseCase implements UpdateResource {
@@ -17,6 +19,9 @@ public class UpdateResourceUseCase implements UpdateResource {
 
     @Override
     public Mono<ResourceDTO> updateResource(ResourceDTO resourceDTO) {
-        return null;
+        // validation
+        Objects.requireNonNull(resourceDTO.getId(), "Id is required");
+        return resourceRepository.save(resourceMapper.mapToCollection().apply(resourceDTO))
+                .map(resourceMapper.mapToDTO());
     }
 }
