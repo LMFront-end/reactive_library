@@ -17,9 +17,9 @@ public class FindByNameUseCase implements FindByName {
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
 
-
     @Override
     public Flux<ResourceDTO> findByName(String name) {
-        return null;
+        return resourceRepository.findAllByNameContainingIgnoreCaseOrderByName(name)
+                .map(resourceMapper.mapToDTO());
     }
 }
