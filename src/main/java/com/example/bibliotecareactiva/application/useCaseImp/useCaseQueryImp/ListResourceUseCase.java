@@ -19,6 +19,7 @@ public class ListResourceUseCase implements ListResource {
 
     @Override
     public Flux<ResourceDTO> listResource() {
-        return null;
+        return resourceRepository.findAll()
+                .map(resourceMapper.mapToDTO());
     }
 }
