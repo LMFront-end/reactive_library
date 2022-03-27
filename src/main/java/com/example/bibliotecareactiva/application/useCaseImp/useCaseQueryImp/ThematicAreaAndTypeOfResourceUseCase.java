@@ -18,9 +18,10 @@ public class ThematicAreaAndTypeOfResourceUseCase implements ThematicAreaAndType
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
-    
+
     @Override
     public Flux<ResourceDTO> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource) {
-        return null;
+        return resourceRepository.findAllByThematicAreaAndTypeOfResourceOrderByName(thematicArea, typeOfResource)
+                .map(resourceMapper.mapToDTO());
     }
 }
