@@ -20,6 +20,7 @@ public class RecommendByThematicAreaUseCase implements RecommendByThematicArea {
 
     @Override
     public Flux<ResourceDTO> recommendByThematicArea(ThematicArea thematicArea) {
-        return null;
+        return resourceRepository.findAllByThematicAreaOrderByName(thematicArea)
+                .map(resourceMapper.mapToDTO());
     }
 }
