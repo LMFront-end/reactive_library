@@ -3,7 +3,7 @@ package com.example.bibliotecareactiva.application.useCase.useCaseCommandInterfa
 import com.example.bibliotecareactiva.domain.dto.ResourceDTO;
 import reactor.core.publisher.Mono;
 
-@FunctionalInterface
 public interface UpdateResource {
-    public Mono<ResourceDTO> updateResource(ResourceDTO resourceDTO);
+    Mono<ResourceDTO> updateResource(ResourceDTO resourceDTO);
 }
+
