@@ -5,5 +5,5 @@ import reactor.core.publisher.Mono;
 
 @FunctionalInterface
 public interface SaveResource {
-    public Mono<ResourceDTO> saveResource(ResourceDTO resourceDTO);
+    Mono<ResourceDTO> saveResource(ResourceDTO resourceDTO);
 }
