@@ -9,5 +9,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface ThematicAreaAndTypeOfResource {
-    public Flux<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource);
+    public Flux<ResourceDTO> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource);
 }

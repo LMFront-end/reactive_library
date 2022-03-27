@@ -18,9 +18,9 @@ public class ThematicAreaAndTypeOfResourceUseCase implements ThematicAreaAndType
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
-
+    
     @Override
-    public Flux<List<ResourceDTO>> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource) {
+    public Flux<ResourceDTO> recommendThematicAreaAndTypeOfResource(ThematicArea thematicArea, TypeOfResource typeOfResource) {
         return null;
     }
 }
