@@ -8,5 +8,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface RecommendByThematicArea {
-    public Flux<List<ResourceDTO>> recommendByThematicArea(ThematicArea thematicArea);
+    public Flux<ResourceDTO> recommendByThematicArea(ThematicArea thematicArea);
 }

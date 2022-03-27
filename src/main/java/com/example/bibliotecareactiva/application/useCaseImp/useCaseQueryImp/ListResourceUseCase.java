@@ -16,7 +16,7 @@ public class ListResourceUseCase implements ListResource {
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
-    
+
     @Override
     public Flux<ResourceDTO> listResource() {
         return null;

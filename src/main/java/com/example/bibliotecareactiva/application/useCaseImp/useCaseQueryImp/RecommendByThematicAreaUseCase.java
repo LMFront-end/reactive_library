@@ -17,9 +17,9 @@ public class RecommendByThematicAreaUseCase implements RecommendByThematicArea {
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
-
+    
     @Override
-    public Flux<List<ResourceDTO>> recommendByThematicArea(ThematicArea thematicArea) {
+    public Flux<ResourceDTO> recommendByThematicArea(ThematicArea thematicArea) {
         return null;
     }
 }
