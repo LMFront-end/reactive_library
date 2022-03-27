@@ -7,5 +7,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface ListResource {
-    public Flux<List<ResourceDTO>> listResource();
+    public Flux<ResourceDTO> listResource();
 }
