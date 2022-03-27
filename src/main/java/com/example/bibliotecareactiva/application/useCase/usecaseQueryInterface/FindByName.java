@@ -7,5 +7,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface FindByName {
-    public Flux<List<ResourceDTO>> findByName(String name);
+    public Flux<ResourceDTO> findByName(String name);
 }

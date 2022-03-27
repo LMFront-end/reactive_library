@@ -17,8 +17,9 @@ public class FindByNameUseCase implements FindByName {
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
 
+
     @Override
-    public Flux<List<ResourceDTO>> findByName(String name) {
+    public Flux<ResourceDTO> findByName(String name) {
         return null;
     }
 }
