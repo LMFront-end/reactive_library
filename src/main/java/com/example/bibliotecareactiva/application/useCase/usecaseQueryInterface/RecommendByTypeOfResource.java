@@ -8,5 +8,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface RecommendByTypeOfResource {
-    public Flux<List<ResourceDTO>> recommendByTypeOfResource(TypeOfResource typeOfResource);
+    public Flux<ResourceDTO> recommendByTypeOfResource(TypeOfResource typeOfResource);
 }

@@ -17,9 +17,9 @@ public class RecommedByTypeOfResourceUseCase implements RecommendByTypeOfResourc
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
-
+    
     @Override
-    public Flux<List<ResourceDTO>> recommendByTypeOfResource(TypeOfResource typeOfResource) {
+    public Flux<ResourceDTO> recommendByTypeOfResource(TypeOfResource typeOfResource) {
         return null;
     }
 }
