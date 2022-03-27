@@ -14,23 +14,23 @@ import java.util.Optional;
 public interface ResourceRepository extends ReactiveMongoRepository<Resource, String> {
 
     // find by availability
-    Flux<List<Resource>> findAllByAvailability(Availability availability);
+    Flux<Resource> findAllByAvailability(Availability availability);
 
-    // optional findByIdAndAvailability
-    Mono<Optional<Resource>> findByIdAndAvailability(String id, Availability availability);
+    // findByIdAndAvailability
+    Mono<Resource> findByIdAndAvailability(String id, Availability availability);
 
     // recommend By ThematicArea
-    Flux<List<Resource>> findAllByThematicAreaOrderByName(ThematicArea thematicArea);
+    Flux<Resource> findAllByThematicAreaOrderByName(ThematicArea thematicArea);
 
     // recommend By TypeOfResource
-    Flux<List<Resource>>  findAllByTypeOfResourceOrderByName(TypeOfResource typeOfResource);
+    Flux<Resource>  findAllByTypeOfResourceOrderByName(TypeOfResource typeOfResource);
 
     // recommend by both (ThematicArea, TypeOfResource
-    Flux<List<Resource>> findAllByThematicAreaAndTypeOfResourceOrderByName(ThematicArea thematicArea, TypeOfResource typeOfResource);
+    Flux<Resource> findAllByThematicAreaAndTypeOfResourceOrderByName(ThematicArea thematicArea, TypeOfResource typeOfResource);
 
     // find By Author
-    Flux<List<Resource>> findAllByAuthorContainingIgnoreCaseOrderByName(String author);
+    Flux<Resource> findAllByAuthorContainingIgnoreCaseOrderByName(String author);
 
     // find by name
-    Flux<List<Resource>> findAllByNameContainingIgnoreCaseOrderByName(String author);
+    Flux<Resource> findAllByNameContainingIgnoreCaseOrderByName(String author);
 }
