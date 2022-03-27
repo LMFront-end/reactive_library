@@ -9,17 +9,16 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 
-import java.util.List;
-
 @RequiredArgsConstructor
 @Service
-public class RecommedByTypeOfResourceUseCase implements RecommendByTypeOfResource {
+public class RecommendByTypeOfResourceUseCase implements RecommendByTypeOfResource {
 
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
 
     @Override
     public Flux<ResourceDTO> recommendByTypeOfResource(TypeOfResource typeOfResource) {
-        return null;
+        return resourceRepository.findAllByTypeOfResourceOrderByName(typeOfResource)
+                .map(resourceMapper.mapToDTO());
     }
 }
