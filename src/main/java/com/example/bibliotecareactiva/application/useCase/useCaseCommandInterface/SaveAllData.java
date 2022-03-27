@@ -7,5 +7,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface SaveAllData {
-    public Flux<ResourceDTO> fillData(List<ResourceDTO> resourceDTOS);
+    Flux<ResourceDTO> fillData(List<ResourceDTO> resourceDTOS);
 }
