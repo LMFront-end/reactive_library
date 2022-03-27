@@ -1,4 +1,4 @@
-package com.example.bibliotecareactiva.infrastructure.resourceCommandRouter;
+package com.example.bibliotecareactiva.infrastructure.resource_command_routers;
 
 import com.example.bibliotecareactiva.application.useCaseImp.useCaseCommandImp.UpdateResourceUseCase;
 import com.example.bibliotecareactiva.domain.dto.ResourceDTO;

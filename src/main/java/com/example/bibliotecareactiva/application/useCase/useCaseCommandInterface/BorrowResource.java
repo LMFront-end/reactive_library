@@ -4,5 +4,5 @@ import reactor.core.publisher.Mono;
 
 @FunctionalInterface
 public interface BorrowResource {
-    public Mono<String> borrowResource(String id);
+    Mono<String> borrowResource(String id);
 }

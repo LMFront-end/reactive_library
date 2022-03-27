@@ -1,4 +1,4 @@
-package com.example.bibliotecareactiva.infrastructure.resourceCommandRouter;
+package com.example.bibliotecareactiva.infrastructure.resource_command_routers;
 
 import com.example.bibliotecareactiva.application.useCaseImp.useCaseCommandImp.SaveAllDataUseCase;
 import com.example.bibliotecareactiva.domain.dto.ResourceDTO;
@@ -6,8 +6,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.MediaType;
-import org.springframework.web.reactive.function.BodyInserter;
-import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.server.RouterFunction;
 import org.springframework.web.reactive.function.server.ServerResponse;
 
