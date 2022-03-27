@@ -20,6 +20,7 @@ public class FindByAvailabilityUseCase implements FindByAvailability {
 
     @Override
     public Flux<ResourceDTO> findByAvailability(Availability availability) {
-        return null;
+        return resourceRepository.findAllByAvailability(availability)
+                .map(resourceMapper.mapToDTO());
     }
 }
