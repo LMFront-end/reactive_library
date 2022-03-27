@@ -8,5 +8,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface FindByAvailability {
-    public Flux<List<ResourceDTO>> findByAvailability(Availability availability);
+    public Flux<ResourceDTO> findByAvailability(Availability availability);
 }

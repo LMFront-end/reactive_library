@@ -19,7 +19,7 @@ public class FindByAvailabilityUseCase implements FindByAvailability {
     private final ResourceMapper resourceMapper;
 
     @Override
-    public Flux<List<ResourceDTO>> findByAvailability(Availability availability) {
+    public Flux<ResourceDTO> findByAvailability(Availability availability) {
         return null;
     }
 }
