@@ -7,5 +7,5 @@ import java.util.List;
 
 @FunctionalInterface
 public interface FindByAuthor {
-    public Flux<List<ResourceDTO>> findByAuthor(String author);
+    public Flux<ResourceDTO> findByAuthor(String author);
 }

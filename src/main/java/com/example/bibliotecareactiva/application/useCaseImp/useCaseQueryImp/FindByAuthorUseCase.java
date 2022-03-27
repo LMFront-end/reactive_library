@@ -18,7 +18,8 @@ public class FindByAuthorUseCase implements FindByAuthor {
     private final ResourceMapper resourceMapper;
 
     @Override
-    public Flux<List<ResourceDTO>> findByAuthor(String author) {
-        return null;
+    public Flux<ResourceDTO> findByAuthor(String author) {
+        return resourceRepository.findAllByAuthorContainingIgnoreCaseOrderByName(author)
+                .map(resourceMapper.mapToDTO());
     }
 }
