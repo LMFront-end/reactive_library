@@ -7,5 +7,5 @@ import java.util.Optional;
 
 @FunctionalInterface
 public interface FindById {
-    public Mono<Optional<ResourceDTO>> findById(String id);
+    public Mono<ResourceDTO> findById(String id);
 }

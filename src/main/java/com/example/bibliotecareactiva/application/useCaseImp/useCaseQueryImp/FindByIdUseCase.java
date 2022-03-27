@@ -18,8 +18,9 @@ public class FindByIdUseCase implements FindById {
     private final ResourceRepository resourceRepository;
     private final ResourceMapper resourceMapper;
 
+
     @Override
-    public Mono<Optional<ResourceDTO>> findById(String id) {
+    public Mono<ResourceDTO> findById(String id) {
         return null;
     }
 }
