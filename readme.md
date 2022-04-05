@@ -103,7 +103,7 @@ _Resource query controllers_
 * [listResource](https://) - lista de recursos
 
 ### pruebas manuales con insomnia y postman
-
+--> importar archivo (Reactive Library.postman_collection.json)
 
 ## Autora ✒️
 * **Lina Maria Guerrero** - *Biblioteca funcional* - [LMFront-end](https://github.com/LMFront-end)
