@@ -1,0 +1,351 @@
+{
+	"info": {
+		"_postman_id": "f3dc51bc-80db-44b5-9415-8f4e6cef1e01",
+		"name": "Reactive Library",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Commands",
+			"item": [
+				{
+					"name": "fill data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"name\": \"New Decade new style\",\r\n    \"author\": \"Vogue\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"MAGAZINES\"\r\n  },\r\n  {\r\n    \"name\": \"43 Looks\",\r\n    \"author\": \"Vogue\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"MAGAZINES\"\r\n  },\r\n  {\r\n    \"name\": \"The big fashion issue\",\r\n    \"author\": \"ELLE\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"MAGAZINES\"\r\n  },\r\n  {\r\n    \"name\": \"Harry Potter y la piedra Filosofal\",\r\n    \"author\": \"J.K Rowling\",\r\n    \"thematicArea\": \"FANTASY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Harry Potter y la camara secreta\",\r\n    \"author\": \"J.K Rowling\",\r\n    \"thematicArea\": \"FANTASY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Cayendo por Rebeca\",\r\n    \"author\": \"Zela B.\",\r\n    \"thematicArea\": \"ROMANCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Abracadabra y patas de cabra\",\r\n    \"author\": \"Brian Gagwilde\",\r\n    \"thematicArea\": \"FANTASY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Alquimia\",\r\n    \"author\": \"Argo Pyrites\",\r\n    \"thematicArea\": \"SCIENCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Necromancia\",\r\n    \"author\": \"Bertrand\",\r\n    \"thematicArea\": \"CRITICAL_READING\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"El futuro de nuestra mente\",\r\n    \"author\": \"MICHO KAKU\",\r\n    \"thematicArea\": \"SCIENCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Mi vida\",\r\n    \"author\": \"Stephen Hawking\",\r\n    \"thematicArea\": \"SCIENCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"El bonono y los diez mandamientos\",\r\n    \"author\": \"Frans de Waal\",\r\n    \"thematicArea\": \"SCIENCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"El origen de las especies\",\r\n    \"author\": \"Charles Darwin\",\r\n    \"thematicArea\": \"NATURE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Manual practico de Microbiologia\",\r\n    \"author\": \"Sandra Carlina & Clara Giraldo\",\r\n    \"thematicArea\": \"NATURE\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"En busca del origen\",\r\n    \"author\": \"Felipe Guhl\",\r\n    \"thematicArea\": \"NATURE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Por qué dependemos de la biodiversidad\",\r\n    \"author\": \"Juan Armando Sanchez\",\r\n    \"thematicArea\": \"NATURE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Nada\",\r\n    \"author\": \"Carmen Laforet\",\r\n    \"thematicArea\": \"HISTORY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Los miserables\",\r\n    \"author\": \"Victor Hugo\",\r\n    \"thematicArea\": \"HISTORY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Manual de matematica preuniversitaria\",\r\n    \"author\": \"Marilina Carena\",\r\n    \"thematicArea\": \"MATHEMATICS\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Introduccion a la matematica\",\r\n    \"author\": \"Universidad Catolica de cordoba\",\r\n    \"thematicArea\": \"MATHEMATICS\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Aspectos teoricos de los solitones hilomorfos\",\r\n    \"author\": \"Juan Pablo O'brien\",\r\n    \"thematicArea\": \"MATHEMATICS\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Diccionario Ilustrado de conceptos matematicos\",\r\n    \"author\": \"Efraín Soto\",\r\n    \"thematicArea\": \"MATHEMATICS\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Introducción a la matematica\",\r\n    \"author\": \"Universidad Católica de cordoba\",\r\n    \"thematicArea\": \"MATHEMATICS\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"La republica de Platón\",\r\n    \"author\": \"Manuel Fernandez\",\r\n    \"thematicArea\": \"PHILOSOPHY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Sobre la felicidad\",\r\n    \"author\": \"Juan Azagra\",\r\n    \"thematicArea\": \"PHILOSOPHY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Las moradas de santa teresa de Jesús\",\r\n    \"author\": \"Amazon Media\",\r\n    \"thematicArea\": \"PHILOSOPHY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"El discurso del método\",\r\n    \"author\": \"René descartes\",\r\n    \"thematicArea\": \"PHILOSOPHY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Etica mostrada segun el orden geometrico\",\r\n    \"author\": \"Baruj Espinosa\",\r\n    \"thematicArea\": \"PHILOSOPHY\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Critica de la razón pura\",\r\n    \"author\": \"Immanuel Kant\",\r\n    \"thematicArea\": \"PHILOSOPHY\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Funciones comunicativas y gramatica\",\r\n    \"author\": \"Leonar Hernandez\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Manual básico para aprender Ingles\",\r\n    \"author\": \"Omar All Caldela\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Guia de ingles\",\r\n    \"author\": \"office of Migrant\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Learning English\",\r\n    \"author\": \"Dominio publico\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Gramatica basica\",\r\n    \"author\": \"Patricia Robinson\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Guía de gramatica inglesa\",\r\n    \"author\": \"Edwin Fallahi & Deborah Robiglio\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Ingles practico\",\r\n    \"author\": \"Jan & R.Ollua\",\r\n    \"thematicArea\": \"ENGLISH\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Problemas de greometria\",\r\n    \"author\": \"Ubaldo Usunariz\",\r\n    \"thematicArea\": \"GEOMETRY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"La enseñanza de la geometria\",\r\n    \"author\": \"Olga leticia López\",\r\n    \"thematicArea\": \"GEOMETRY\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Geometria para maestros\",\r\n    \"author\": \"Juan D. Godino\",\r\n    \"thematicArea\": \"GEOMETRY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Hola Mundo\",\r\n    \"author\": \"Dominio publico\",\r\n    \"thematicArea\": \"TECHNOLOGY\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Orgullo y prejuicio\",\r\n    \"author\": \"Jane Austen\",\r\n    \"thematicArea\": \"ROMANCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"El ruiseñor\",\r\n    \"author\": \"Kristin Hannah\",\r\n    \"thematicArea\": \"ROMANCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Edenbrooke\",\r\n    \"author\": \"Julianne\",\r\n    \"thematicArea\": \"ROMANCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Tu y yo, invencibles\",\r\n    \"author\": \"Alice Kellen\",\r\n    \"thematicArea\": \"ROMANCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"El jinete de bronce\",\r\n    \"author\": \"Pauline simons\",\r\n    \"thematicArea\": \"ROMANCE\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Manual de la bruja Moderna\",\r\n    \"author\": \"Montse Osuna\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Brujeria psiquica\",\r\n    \"author\": \"Mat Auryn\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El grimorio absoluto\",\r\n    \"author\": \"Lidia Pradas\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Libro de las confusiones\",\r\n    \"author\": \"Peter Melkovian\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Ay equis\",\r\n    \"author\": \"Lina Maria\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El resplandor\",\r\n    \"author\": \"S. king\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Halloween\",\r\n    \"author\": \"John Carpenter\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Psicosis\",\r\n    \"author\": \"Alfred Hitchock\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"La matanza de texas\",\r\n    \"author\": \"Tobe Hooper\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Arroz con leche\",\r\n    \"author\": \"ABC rondas\",\r\n    \"thematicArea\": \"FABLES\",\r\n    \"typeOfResource\": \"CHILDREN_ROUNDS\"\r\n  },\r\n  {\r\n    \"name\": \"Limbo Pablo\",\r\n    \"author\": \"Los Backyardigans\",\r\n    \"thematicArea\": \"FABLES\",\r\n    \"typeOfResource\": \"CHILDREN_ROUNDS\"\r\n  },\r\n  {\r\n    \"name\": \"Come little children\",\r\n    \"author\": \"The witch abracadabra\",\r\n    \"thematicArea\": \"FABLES\",\r\n    \"typeOfResource\": \"CHILDREN_ROUNDS\"\r\n  },\r\n  {\r\n    \"name\": \"Pinki dinki doo\",\r\n    \"author\": \"Pinki\",\r\n    \"thematicArea\": \"SERIAL_KILLERS\",\r\n    \"typeOfResource\": \"CHILDREN_ROUNDS\"\r\n  },\r\n  {\r\n    \"name\": \"El coleccionista de huesos\",\r\n    \"author\": \"Lincoln Rhyme\",\r\n    \"thematicArea\": \"SERIAL_KILLERS\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"El poeta\",\r\n    \"author\": \"Jack McEvoy\",\r\n    \"thematicArea\": \"SERIAL_KILLERS\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Las sirenas cantando\",\r\n    \"author\": \"Jordan Mysteries\",\r\n    \"thematicArea\": \"SERIAL_KILLERS\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Brujeria psiquica\",\r\n    \"author\": \"Mat Auryn\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El grimorio absoluto\",\r\n    \"author\": \"Lidia Pradas\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Libro de las confusiones\",\r\n    \"author\": \"Peter Melkovian\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Ay equis\",\r\n    \"author\": \"Lina Maria\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El resplandor\",\r\n    \"author\": \"S. king\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Halloween\",\r\n    \"author\": \"John Carpenter\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Brujeria psiquica\",\r\n    \"author\": \"Mat Auryn\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El grimorio absoluto\",\r\n    \"author\": \"Lidia Pradas\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Libro de las confusiones\",\r\n    \"author\": \"Peter Melkovian\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Ay equis\",\r\n    \"author\": \"Lina Maria\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El resplandor\",\r\n    \"author\": \"S. king\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Halloween\",\r\n    \"author\": \"John Carpenter\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Brujeria psiquica\",\r\n    \"author\": \"Mat Auryn\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El grimorio absoluto\",\r\n    \"author\": \"Lidia Pradas\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Libro de las confusiones\",\r\n    \"author\": \"Peter Melkovian\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Ay equis\",\r\n    \"author\": \"Lina Maria\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El resplandor\",\r\n    \"author\": \"S. king\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Halloween\",\r\n    \"author\": \"John Carpenter\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Brujeria psiquica\",\r\n    \"author\": \"Mat Auryn\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El grimorio absoluto\",\r\n    \"author\": \"Lidia Pradas\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"BOOKS\"\r\n  },\r\n  {\r\n    \"name\": \"Libro de las confusiones\",\r\n    \"author\": \"Peter Melkovian\",\r\n    \"thematicArea\": \"WITCHCRAFT\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"Ay equis\",\r\n    \"author\": \"Lina Maria\",\r\n    \"thematicArea\": \"STYLE\",\r\n    \"typeOfResource\": \"FILES\"\r\n  },\r\n  {\r\n    \"name\": \"El resplandor\",\r\n    \"author\": \"S. king\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Halloween\",\r\n    \"author\": \"John Carpenter\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Juan Pablo Coach 2022\",\r\n    \"author\": \"Lo que sofka necesita\",\r\n    \"thematicArea\": \"MATHEMATICS\",\r\n    \"typeOfResource\": \"DVD\"\r\n  },\r\n  {\r\n    \"name\": \"Halloween\",\r\n    \"author\": \"John Carpenter\",\r\n    \"thematicArea\": \"HORROR\",\r\n    \"typeOfResource\": \"DVD\"\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/fill_data",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"fill_data"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Borrow Resource",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resource/borrow/623fdb428ad23e7482cc1344",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resource",
+								"borrow",
+								"623fdb428ad23e7482cc1344"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Return Resource",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resource/return/623fdb428ad23e7482cc1344",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resource",
+								"return",
+								"623fdb428ad23e7482cc1344"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Save Resource",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"ay x\",\r\n    \"author\": \"unos pedillos\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/save_resource",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"save_resource"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete All",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/delete_all",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"delete_all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Resource",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/delete_resource/623f8b2d7fe59d2ae7d74963",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"delete_resource",
+								"623f8b2d7fe59d2ae7d74963"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update Resource",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": \"623f8bb47fe59d2ae7d74964\",\r\n    \"name\": \"ay x\",\r\n    \"author\": \"unos pedillos\",\r\n    \"availability\": \"AVAILABLE\",\r\n    \"lastBorrowed\": null,\r\n    \"thematicArea\": \"SCIENCE\",\r\n    \"typeOfResource\": null\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8080/api/update_resource",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"update_resource"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Queries",
+			"item": [
+				{
+					"name": "Find By Author",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/author/vogue",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"author",
+								"vogue"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find By Availability",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/availability/AVAILABLE",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"availability",
+								"AVAILABLE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find By Id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/623f627b7fe59d2ae7d7490c",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"623f627b7fe59d2ae7d7490c"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Find By Name",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/name/las",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"name",
+								"las"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "List Resources",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Recommend By Thematic Area",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/thematic/SCIENCE",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"thematic",
+								"SCIENCE"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Recommend By Type Of Resource",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/type/BOOKS",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"type",
+								"BOOKS"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Recommend By Thematic Area And Type Of Resource",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8080/api/resources/thematic/SCIENCE/type/BOOKS",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"resources",
+								"thematic",
+								"SCIENCE",
+								"type",
+								"BOOKS"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
